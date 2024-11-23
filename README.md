@@ -64,12 +64,18 @@ curl -X POST http://localhost:8080/api/v1/disbursement \
   }'
 ```
 
+<img width="671" alt="image" src="https://github.com/user-attachments/assets/3aa5d1a1-230f-4aeb-8637-a694b25a4d60">
+
+
 ## Running Tests
 
 ```bash
 # Run all tests
 docker-compose exec app go test ./tests/... -v
 ```
+
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/ad97b9fb-3cbf-42e7-a044-a9331df3ab41">
+
 
 ## Project Structure
 ```
